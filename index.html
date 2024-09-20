@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Aventura dos Animais</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/floresta.png" alt="Floresta">
+            <p>Você está em uma floresta mágica e encontra um animal ferido. O que você faz?</p>
+            <button class="btn-proximo" data-proximo="1">Ajudar o animal</button>
+            <button class="btn-proximo" data-proximo="2">Ignorar e continuar andando</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p>Você se aproxima e vê que é um coelho. Ele agradece e te pede ajuda para encontrar seus amigos.</p>
+            <button class="btn-proximo" data-proximo="3">Seguir o coelho</button>
+            <button class="btn-proximo" data-proximo="4">Dizer que está ocupado</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>Você ignora o coelho e continua seu caminho. Logo, você ouve um choro de filhotes.</p>
+            <button class="btn-proximo" data-proximo="5">Investigar o choro</button>
+            <button class="btn-proximo" data-proximo="6">Ir embora</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>O coelho te leva até uma clareira onde vários animais estão reunidos. Eles precisam de ajuda!</p>
+            <button class="btn-proximo" data-proximo="7">Oferecer sua ajuda</button>
+            <button class="btn-proximo" data-proximo="8">Ficar observando</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>O coelho fica triste, mas você decide continuar seu caminho. A floresta é cheia de mistérios!</p>
+            <button class="btn-proximo" data-proximo="9">Explorar a floresta</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Você encontra um ninho de pássaros com os filhotes chorando. Eles estão com fome!</p>
+            <button class="btn-proximo" data-proximo="10">Buscar comida para os filhotes</button>
+            <button class="btn-proximo" data-proximo="11">Deixar os filhotes sozinhos</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Você decide ir embora. Os animais da floresta ficam tristes com sua decisão.</p>
+            <button class="btn-proximo" data-proximo="12">Refletir sobre sua escolha</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Os animais agradecem e revelam um tesouro escondido na floresta. Você se torna um herói!</p>
+            <button class="btn-proximo" data-proximo="13">Celebrar com os animais</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Você apenas observa, mas logo se sente vazio por não ajudar. O que você decide fazer agora?</p>
+            <button class="btn-proximo" data-proximo="4">Voltar e ajudar os animais</button>
+            <button class="btn-proximo" data-proximo="9">Continuar explorando</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Enquanto explora, você encontra um lago lindo e decide descansar um pouco.</p>
+            <button class="btn-proximo" data-proximo="14">Ficar no lago</button>
+            <button class="btn-proximo" data-proximo="15">Procurar mais aventuras</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Você volta com comida e os filhotes ficam felizes! Eles crescem fortes e saudáveis.</p>
+            <button class="btn-proximo" data-proximo="16">Continuar ajudando os animais</button>
+            <button class="btn-proximo" data-proximo="17">Seguir em frente</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <p>Você deixa os filhotes sozinhos e eles ficam tristes. A floresta precisa de você!</p>
+            <button class="btn-proximo" data-proximo="5">Voltar e ajudar</button>
+            <button class="btn-proximo" data-proximo="12">Continuar indo embora</button>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Refletindo sobre suas escolhas, você percebe que ajudar os outros é importante.</p>
+            <button class="btn-proximo" data-proximo="4">Voltar e ajudar o coelho</button>
+            <button class="btn-proximo" data-proximo="9">Explorar a floresta</button>
+        </div>
+
+        <div class="passo" id="passo-13">
+            <p>Você celebra com os animais e se torna parte da comunidade da floresta!</p>
+            <button class="btn-proximo" data-proximo="0">Recomeçar a aventura</button>
+        </div>
+
+        <div class="passo" id="passo-14">
+            <p>Você relaxa no lago e descobre que a vida é cheia de beleza. Uma nova jornada começa.</p>
+            <button class="btn-proximo" data-proximo="0">Recomeçar a aventura</button>
+        </div>
+
+        <div class="passo" id="passo-15">
+            <p>Você se levanta e decide que novas aventuras aguardam. O que você vai fazer agora?</p>
+            <button class="btn-proximo" data-proximo="0">Recomeçar a aventura</button>
+        </div>
+
+        <div class="passo" id="passo-16">
+            <p>Você continua ajudando os animais e faz grandes amigos na floresta.</p>
+            <button class="btn-proximo" data-proximo="13">Celebrar com os animais</button>
+        </div>
+
+        <div class="passo" id="passo-17">
+            <p>Você segue em frente, mas sempre pensando na importância de ajudar os outros.</p>
+            <button class="btn-proximo" data-proximo="0">Recomeçar a aventura</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html

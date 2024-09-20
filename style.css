@@ -1,0 +1,79 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and main container styles */
+body {
+    background-color: #A8D5BA;
+    color: #333;
+    font-family: "Bai Jamjuree", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Styling for images */
+img {
+    max-width: 90%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Styles for step container */
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+/* Button styles */
+button {
+    background-color: #4CAF50;
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+    margin: 10px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.5);
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    button {
+        width: 100%;
+        padding: 15px;
+        font-size: 1.2em;
+    }
+    
+    img {
+        max-width: 100%;
+    }
+}
